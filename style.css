@@ -1,0 +1,78 @@
+*{
+    
+    box-sizing: border-box;
+}
+body {
+    align-items: top bottom;    
+    background-color:#19a2ae;
+ }
+
+ .circulo-top{
+     position: absolute;
+     top: 0;
+     left: 0;
+     transform: translate(-35%, -55%);
+ }
+
+ .circulo-bot{
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     transform: translate(25%, 65%);
+ }
+
+ .caixa{
+    width: 320px;
+    background: #f3f3f3;
+    border-radius: 8px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+.background-foto{
+    background: url(images/bg-pattern-card.svg);
+    height: 128px;
+    width: 100%;
+    border-radius: 8px 8px 0 0 ;
+}
+.foto-perfil{
+    border-radius: 50%;
+    border: 5px #f3f3f3 solid;
+    transform: translate(0, -50%);
+}
+
+img{
+    border-radius: 48px;
+}
+
+.nome{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -48px;
+}
+h2{
+    font-weight: 700;
+}
+.idade{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    padding: 8px;
+}
+
+    
+
+
+
+
+
+
+    .end { 
+
+        position: absolute;
+        bottom: 16px;
+        color: #000000;
+    
+     }
